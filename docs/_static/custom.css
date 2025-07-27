@@ -1,0 +1,45 @@
+/* Custom CSS for the documentation */
+
+/* Improve readability */
+.rst-content {
+    max-width: none;
+}
+
+/* Custom styling for code blocks */
+.highlight {
+    background: #f8f8f8;
+    border: 1px solid #e1e4e5;
+    border-radius: 3px;
+}
+
+/* Better spacing for lists */
+.rst-content .section ul,
+.rst-content .toctree-wrapper ul {
+    margin-bottom: 24px;
+}
+
+/* Custom button styling */
+.btn {
+    border-radius: 3px;
+    padding: 6px 12px;
+}
+
+/* Improve table styling */
+.rst-content table.docutils {
+    border: 1px solid #e1e4e5;
+}
+
+.rst-content table.docutils td,
+.rst-content table.docutils th {
+    border: 1px solid #e1e4e5;
+    padding: 8px;
+}
+
+/* Add some custom colors */
+:root {
+    --primary-color: #2980b9;
+    --secondary-color: #3498db;
+    --success-color: #27ae60;
+    --warning-color: #f39c12;
+    --danger-color: #e74c3c;
+}
